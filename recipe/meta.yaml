@@ -1,6 +1,6 @@
 {% set name = "sphinx-nbexamples" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "ab52bc9817914469f2fa6846283e59dd7ea8d5a93768527dbab72d6b5227c6f2" %}
+{% set version = "0.3.1" %}
+{% set sha256 = "3e1b1fd33cdcd33613b1e9d5543c58c87cd44bb48f4b7afcb7bf8183206a5a88" %}
 
 package:
   name: {{ name|lower }}
