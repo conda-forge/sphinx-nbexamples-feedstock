@@ -1,6 +1,6 @@
 {% set name = "sphinx-nbexamples" %}
-{% set version = "0.3.1" %}
-{% set sha256 = "3e1b1fd33cdcd33613b1e9d5543c58c87cd44bb48f4b7afcb7bf8183206a5a88" %}
+{% set version = "0.3.2" %}
+{% set sha256 = "99f50cd2d9c5b7738b12d84a5583dcd231510903f05b2cdcdd2d53fd5ca612d8" %}
 
 package:
   name: {{ name|lower }}
@@ -12,13 +12,13 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 0
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
     - sphinx
