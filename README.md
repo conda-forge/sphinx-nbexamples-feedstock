@@ -1,8 +1,6 @@
 About sphinx-nbexamples
 =======================
 
-[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
-
 Home: https://github.com/Chilipp/sphinx-nbexamples
 
 Package license: GPL-2.0
@@ -18,9 +16,98 @@ bunch of jupyter notebooks using nbconvert.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/sphinx-nbexamples-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/sphinx-nbexamples-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/sphinx-nbexamples-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/sphinx-nbexamples-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/sphinx-nbexamples-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/sphinx-nbexamples-feedstock/branch/master)
+
+<table><tr>
+    <td>Appveyor</td>
+    <td>
+      <a href="https://ci.appveyor.com/project/conda-forge/sphinx-nbexamples-feedstock/branch/master">
+        <img alt="windows" src="https://img.shields.io/appveyor/ci/conda-forge/sphinx-nbexamples-feedstock/master.svg?label=Windows">
+      </a>
+    </td>
+  </tr>
+    
+  <tr>
+    <td>Azure</td>
+    <td>
+      <details>
+        <summary>
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1951&branchName=master">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sphinx-nbexamples-feedstock?branchName=master">
+          </a>
+        </summary>
+        <table>
+          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
+          <tbody><tr>
+              <td>linux_python2.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1951&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sphinx-nbexamples-feedstock?branchName=master&jobName=linux&configuration=linux_python2.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_python3.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1951&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sphinx-nbexamples-feedstock?branchName=master&jobName=linux&configuration=linux_python3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_python3.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1951&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sphinx-nbexamples-feedstock?branchName=master&jobName=linux&configuration=linux_python3.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_python2.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1951&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sphinx-nbexamples-feedstock?branchName=master&jobName=osx&configuration=osx_python2.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_python3.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1951&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sphinx-nbexamples-feedstock?branchName=master&jobName=osx&configuration=osx_python3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_python3.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1951&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sphinx-nbexamples-feedstock?branchName=master&jobName=osx&configuration=osx_python3.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_python2.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1951&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sphinx-nbexamples-feedstock?branchName=master&jobName=win&configuration=win_python2.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_python3.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1951&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sphinx-nbexamples-feedstock?branchName=master&jobName=win&configuration=win_python3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_python3.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1951&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sphinx-nbexamples-feedstock?branchName=master&jobName=win&configuration=win_python3.7" alt="variant">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </details>
+    </td>
+  </tr>
+![ppc64le disabled](https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg)
+</table>
 
 Current release info
 ====================
@@ -53,6 +140,8 @@ conda search sphinx-nbexamples --channel conda-forge
 
 About conda-forge
 =================
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
