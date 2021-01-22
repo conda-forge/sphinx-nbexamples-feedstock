@@ -16,7 +16,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
@@ -36,7 +36,7 @@ test:
 
 about:
   home: https://github.com/Chilipp/sphinx-nbexamples
-  license: GPL-2.0-Only
+  license: GPL-2.0-only
   license_family: GPL
   license_file: LICENSE
   summary: 'Create an examples gallery with sphinx from Jupyter Notebooks'
