@@ -1,6 +1,6 @@
 {% set name = "sphinx-nbexamples" %}
-{% set version = "0.4.0" %}
-{% set sha256 = "14b6b3864aa65d83d1d31fe3e2dcd17165ae18c1e083328a132145d35a20b732" %}
+{% set version = "0.4.1" %}
+{% set sha256 = "5de50d2ca1a21f3dc20d7b2d8a86ae02d8207a23c94f460ac700d79046bd0617" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -36,10 +36,9 @@ test:
 
 about:
   home: https://github.com/Chilipp/sphinx-nbexamples
-  license: GPL-2.0-only
-  license_family: GPL
+  license: MIT
   license_file: LICENSE
-  summary: 'Create an examples gallery with sphinx from Jupyter Notebooks'
+  summary: Create an examples gallery with sphinx from Jupyter Notebooks
 
   description: |
     This module creates an example gallery for your documentation out of a
